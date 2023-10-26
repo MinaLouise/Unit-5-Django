@@ -1,7 +1,8 @@
-"""config URL Configuration
+"""
+URL configuration for config project.
 
 The `urlpatterns` list routes URLs to views. For more information please see:
-    https://docs.djangoproject.com/en/3.2/topics/http/urls/
+    https://docs.djangoproject.com/en/4.2/topics/http/urls/
 Examples:
 Function views
     1. Add an import:  from my_app import views
@@ -16,11 +17,9 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
-from app.views import hey_name, user_age, user_order
+from app.views import hello_world
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('hey/<name>', hey_name),
-    path('age-in/<end>/<birthyear>', user_age),
-    path('order-total/<burgers>/<fries>/<drinks>', user_order)
+    path('hello/', hello_world),
+    path('admin/', admin.site.urls)
 ]
