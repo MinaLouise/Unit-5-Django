@@ -50,10 +50,10 @@ class TestContact(TestCase):
 
         self.assertEqual(len(contacts), len(contacts_data))
 
-        contact_data = sorted(contacts_data, key=lambda c: c["name"])
+        contacts_data = sorted(contacts_data, key=lambda c: c["name"])
         contacts = sorted(contacts, key=lambda c: c.name)
 
-        for data, contact in zip(contact_data, contacts):
+        for data, contact in zip(contacts_data, contacts):
             self.assertEqual(data["name"], contact.name)
             self.assertEqual(data["email"], contact.email)
             self.assertEqual(data["phone"], contact.phone)
@@ -89,7 +89,7 @@ class TestContact(TestCase):
                 contact_data["is_favorite"],
             )
 
-        self.assertIsNone(len(models.find_contact_by_name("aousnth")))
+        self.assertIsNone(models.find_contact_by_name("aousnth"))
 
         contact = models.find_contact_by_name("Alma")
 
