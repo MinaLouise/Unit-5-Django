@@ -2,10 +2,10 @@
 
 ## Videos
 
-1. [Unwinding `@dataclass`](./videos/unwinding-dataclass.mp4)
+1. [Unwinding `@dataclass`](./video/unwinding-dataclass.mp4)
 2. [Corey Schafer's OOP Tutorials](https://www.youtube.com/watch?v=ZDa-Z5JzLYM&list=PL-osiE80TeTsqhIuOqKhwlXsIBIdSeYtc)
 
-## OOP Exercises 
+## OOP Exercises
 
 You've been provided several directories that contain starter code and test suites to give you practice with object oriented programming.
 
@@ -13,16 +13,15 @@ You've been provided several directories that contain starter code and test suit
 2. [ ] [Counting Machine](./exercises/counting_machine)
 3. [ ] [Balloons](./exercises/balloons)
 
-
 ## Videos
 
-1. [Hello Models](./videos/hello-models.mp4)
-2. [Creating Models](./videos/creating-models.mp4)
-3. [Migrating The Database](./videos/migrating-the-database.mp4)
-4. [CRUD with Models](./videos/model-crud.mp4)
-5. [What's Under Models?](./videos/whats-under-models.mp4)
-6. [Better Models](./videos/better-models.mp4)
-7. [More About Queries](./videos/more-about-queries.mp4)
+1. [Hello Models](./video/hello-models.mp4)
+2. [Creating Models](./video/creating-models.mp4)
+3. [Migrating The Database](./video/migrating-the-database.mp4)
+4. [CRUD with Models](./video/model-crud.mp4)
+5. [What's Under Models?](./video/whats-under-models.mp4)
+6. [Better Models](./video/better-models.mp4)
+7. [More About Queries](./video/more-about-queries.mp4)
 
 ## Model Exercises
 
